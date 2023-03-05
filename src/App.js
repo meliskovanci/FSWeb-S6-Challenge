@@ -18,7 +18,12 @@ const App = () => {
 
    useEffect(() => {
     axios
-    .get("https://swapi.dev/api/people/")
+    .get("https://swapi.dev/api/people/",{
+      params: {
+        page,
+        search,
+      },
+    })
     
     .then((res) => {
         console.log(res.data);

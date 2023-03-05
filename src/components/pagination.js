@@ -16,7 +16,7 @@ const PaginationBar = ({ count, setPage}) => {
       }}
       onChange={(e) => {
         setPage(e.target.textContent);
-      
+        
       }}
       />
     </Stack>
