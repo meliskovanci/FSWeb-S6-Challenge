@@ -10,7 +10,7 @@ const PaginationBar = ({ count, setPage}) => {
       size="small" 
       style={{
         marginTop: "1rem",
-        background: "linear-gradient(45deg, #53c0ff 30%, #fe6bb7 90%)",
+        background: "grey",
         display: "flex",
         justifyContent: "center",
       }}

@@ -8,8 +8,8 @@ const inputProps = {
   sx: {
     "& input": {
       textAlign: "center",
-      background: "linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)",
       fullWidth: "100%",
+      
     },
   },
 };
@@ -18,8 +18,9 @@ const inputProps = {
   return (
     <Box>
       <TextField id="standard-basic" 
-      label="Standard" 
-      variant="standard" 
+      variant="standard"
+      
+      placeholder="Search" 
       InputProps={inputProps}
       onChange={(e) => setSearch(e.target.value)}
       />
